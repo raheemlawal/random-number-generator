@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct RandomNumberGeneratorApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                ContentView()
+                .tabItem {
+                    Label("Generator", systemImage: "plus")
+                }
+                StatisticsView()
+                .tabItem {
+                    Label("Stats", systemImage: "chart.bar.xaxis")
+                }
+            }
         }
+        
     }
 }

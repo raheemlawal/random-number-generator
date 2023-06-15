@@ -11,6 +11,7 @@
 		579C5AFF2A384346004F3024 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C5AFE2A384346004F3024 /* ContentView.swift */; };
 		579C5B012A384348004F3024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579C5B002A384348004F3024 /* Assets.xcassets */; };
 		579C5B042A384348004F3024 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579C5B032A384348004F3024 /* Preview Assets.xcassets */; };
+		57D2A6F82A3AB56D00009D79 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2A6F72A3AB56D00009D79 /* StatisticsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		579C5AFE2A384346004F3024 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		579C5B002A384348004F3024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		579C5B032A384348004F3024 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57D2A6F72A3AB56D00009D79 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		579C5AFB2A384346004F3024 /* RandomNumberGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				57D2A6F72A3AB56D00009D79 /* StatisticsView.swift */,
 				579C5AFC2A384346004F3024 /* RandomNumberGeneratorApp.swift */,
 				579C5AFE2A384346004F3024 /* ContentView.swift */,
 				579C5B002A384348004F3024 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D2A6F82A3AB56D00009D79 /* StatisticsView.swift in Sources */,
 				579C5AFF2A384346004F3024 /* ContentView.swift in Sources */,
 				579C5AFD2A384346004F3024 /* RandomNumberGeneratorApp.swift in Sources */,
 			);

@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State var randomNumber: Int = Int.random(in: 1...100)
+    @State var numbersGenerated : Int = 0
     
     var body: some View {
         
@@ -23,9 +24,11 @@ struct ContentView: View {
             Text(String(randomNumber))
             Button("Generate") {
                 randomNumber = Int.random(in: 1...100)
+                numbersGenerated+=1
             }.buttonStyle(.bordered)
                 .controlSize(.large)
                 .tint(.green)
+            Text("Numbers generated: " + String(numbersGenerated))
         }
     }
 }
