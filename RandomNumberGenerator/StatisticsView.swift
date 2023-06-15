@@ -9,13 +9,9 @@ import SwiftUI
 
 struct StatisticsView: View {
     
+    @Binding var numbersGenerated: Int
+    
     var body: some View {
-        Text("Stats")
-    }
-}
-
-struct StatissticsView_Previews: PreviewProvider {
-    static var previews: some View {
-        StatisticsView()
+        Text("Numbers generated: " + String(numbersGenerated))
     }
 }

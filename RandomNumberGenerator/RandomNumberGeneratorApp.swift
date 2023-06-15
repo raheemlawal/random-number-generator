@@ -12,17 +12,7 @@ struct RandomNumberGeneratorApp: App {
     
     var body: some Scene {
         WindowGroup {
-            TabView {
-                ContentView()
-                .tabItem {
-                    Label("Generator", systemImage: "plus")
-                }
-                StatisticsView()
-                .tabItem {
-                    Label("Stats", systemImage: "chart.bar.xaxis")
-                }
-            }
-        }
-        
+            ContentView()
+        }        
     }
 }
